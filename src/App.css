@@ -1,0 +1,93 @@
+.todo-item{
+  padding: 15px;
+  border: 1px solid black;
+ margin: 16px;
+ width: 400px;
+ align-items: center;
+ border-radius: 5px;
+
+}
+button{
+  border: 2px solid #000000;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: aqua;
+  padding: 5px;
+
+}
+button:hover{
+  background-color:#000000;
+  color:#ffffff
+}
+.todo-item button{
+  margin-left: 10px;
+}
+.todo-item button:hover{
+  background-color: #00ffff;
+  border: 2px solid #00ffff;
+}
+.todo-item button{
+  margin-left: 10px;
+}
+.todo-item button:hover{
+  background-color: #00ffff;
+  border: 2px solid #00ffff;
+}
+.todo-item button:active{
+  background-color:#00ffff;
+  border: 2px solid #00ffff;
+}
+.Popup{
+  position:fixed;
+  top: 50px;
+  left:50px;
+  width: 320px;
+  background-color:white;
+  /*height: 100%;*/
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  padding:20px;
+  box-sizing: border-box;
+  border-radius:5px;
+  display:flex;
+  flex-direction:column;
+  z-index :10;
+
+
+}
+.Popup_btns{
+  display:flex;
+  margin-top:10px;
+  gap:5px;
+
+}
+
+.Popup_btn{
+  border: 2px solid #000000;
+  padding:5px 10px;
+  border-radius:5px;
+  cursor:pointer;
+  margin:0;
+  width:64px;
+  background-color:#09a9ff;
+  color: #ffffff;
+}
+
+.Popup_btn--cancel{
+  background-color:#00ffff;
+  color: black;
+
+}
+.backdrop{
+  position:fixed;
+  z-index: 5;
+  background-color:rgba(0, 0, 0, 0.5);
+  width:100%;
+  height:100vh;
+  top:0;
+  left:0;
+
+}
+.count{
+  font-size:24px;
+  
+}
